@@ -26,7 +26,7 @@ TBC
 
 - **Real-time data handling** – We will extract, encode, and make accurate decisions based on rapidly changing live data
 - **UART communication** – We will interface between software and hardware using UART
-- **UI/UX** - We will develop a basic user interface and user experience for those who wish to use the trading system
+- **UI/UX** - We will develop a basic user interface and user experience for the end user
 - **Hardware Acceleration** – We will use hardware to implement more complex trading strategies than would be possible and time efficient on software, proving utility over fully software-based approaches to algorithmic trading
 - **Algorithmic Trading Logic** – Through trade simulation and some form of iteration, we will extract value from the market systematically
 
