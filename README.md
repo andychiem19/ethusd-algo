@@ -1,8 +1,8 @@
 > [!NOTE]
 > This project is a work-in-progress!
 
-### Hardware-Accelerated Ethereum (ETH-USDT) Trading System
-The goal of this project is to port live data from a public crypto exchange's API (OKX) onto an FPGA using Python and UART, execute a highly efficient trading algorithm on hardware using SystemVerilog, and then return technical/trading analysis insights to the user on the software side. This project may be expanded to trade simulation and machine learning to optimize the high-frequency trading algorithm.
+### Hardware-Accelerated Ethereum Trading System
+The goal of this project is to port live data from a public crypto exchange's API (OKX) onto an FPGA using Python and UART, execute a highly efficient trading algorithm on hardware using SystemVerilog, and then return technical/trading analysis insights to the user on the software side. This project may be expanded to trade simulation and machine learning to create an optimized high-frequency trading algorithm.
 
 **Tools Used**
 
@@ -24,11 +24,11 @@ TBC
 
 #### **Learning Objectives**
 
-- **Real-time data handling** – We will extract, encode, and make accurate decisions based on rapidly changing live data
-- **UART communication** – We will interface between software and hardware using UART
-- **UI/UX** - We will develop a basic user interface and user experience for the end user
-- **Hardware Acceleration** – We will use hardware to implement more complex trading strategies than would be possible and time efficient on software, proving utility over fully software-based approaches to algorithmic trading
-- **Algorithmic Trading Logic** – Through trade simulation and some form of iteration, we will extract value from the market systematically
+- **Real-time data handling** – Extract, encode, and make accurate decisions based on rapidly changing live data
+- **UART communication** – Interface between software and hardware using UART
+- **UI/UX** - Develop a basic user interface and user experience for those who wish to use the trading system
+- **Hardware Acceleration** – Use hardware to implement more complex trading strategies than would be possible and time efficient on software, proving utility over fully software-based approaches to algorithmic trading
+- **Algorithmic Trading Logic** – Through trade simulation and some form of iteration, extract value from the market systematically
 
 ---
 
