@@ -2,15 +2,15 @@ import websockets
 import asyncio
 import json
 import serial
+import struct
 
-ser = serial.Serial("COM3", 115200) # port n baud rate
+ser = serial.Serial("COM3", 115200) # port and baud rate
 
 def pack_values(last_str, vol_str): # converts strings to integers and packs them into bytes for fpga-chan
     last_int = int(float(last_str) * 100)
     vol_int  = int(float(vol_str))
-    lp_bytes = last_int.to_bytes(4, 'big', signed=True)
-    vol_bytes = vol_int.to_bytes(4, 'big', signed=True)
-    return lp_bytes + vol_bytes
+    frame = struct.pack('>ii', last_int, vol_int) # big-endian, 2 4-byte signed-int
+    return frame
 
 async def main(): 
     url = "wss://ws.okx.com:8443/ws/v5/public"
