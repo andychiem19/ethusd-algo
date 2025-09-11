@@ -2,7 +2,7 @@
 > This project is a work-in-progress!
 
 ### Hardware-Accelerated Ethereum Trading System
-The goal of this project is to port live data from a public crypto exchange's API (OKX) onto an FPGA using Python and UART, execute a highly efficient trading algorithm on hardware using SystemVerilog, and then return technical/trading analysis insights to the user on the software side. The ultimate goal is to use machine learning and hardware acceleration to create a profitable high-frequency trading algorithm for Ethereum.
+The goal of this project is to port live data from a public crypto exchange's API (OKX) onto an FPGA using Python and UART, execute a highly efficient trading algorithm on hardware using SystemVerilog, and then return technical/trading analysis insights to the user on the software side. The ultimate goal is to use machine learning and hardware acceleration to create a profitable high-frequency trading system for Ethereum.
 
 **Tools Used**
 
@@ -32,7 +32,7 @@ TBC
 
 #### **File Structure**
 
-`/fpga` –> RTL files and Xilinx constraints files for hardware-side
+`/fpga` –> RTL files and Xilinx constraints files for hardware-side\
 `/src` –> Software-side files for real-time data processing in Python
 
 ---
