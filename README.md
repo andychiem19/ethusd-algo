@@ -2,15 +2,13 @@
 > This project is a work-in-progress!
 
 ### Hardware-Accelerated Ethereum Trading System
-The goal of this project is to port live data from a public crypto exchange's API (OKX) onto an FPGA using Python and UART, execute a highly efficient trading algorithm on hardware using SystemVerilog, and then return technical/trading analysis insights to the user on the software side. This project may be expanded to trade simulation and machine learning to create an optimized high-frequency trading algorithm.
+The goal of this project is to port live data from a public crypto exchange's API (OKX) onto an FPGA using Python and UART, execute a highly efficient trading algorithm on hardware using SystemVerilog, and then return technical/trading analysis insights to the user on the software side. The ultimate goal is to use machine learning and hardware acceleration to create a profitable high-frequency trading algorithm for Ethereum.
 
 **Tools Used**
 
 `Xilinx Vivado`
 `Verilog/SystemVerilog`
 `Python`
-`Icarus Verilog 12.0`
-`GTKWave`
 `Visual Studio Code`
 `Git`
 
@@ -34,8 +32,8 @@ TBC
 
 #### **File Structure**
 
-`/software` –> Software-side files for real-time data processing in C++ (backlogged)\
-`/software-py` –> Software-side files for real-time data processing in Python
+`/fpga` –> RTL files and Xilinx constraints files for hardware-side
+`/src` –> Software-side files for real-time data processing in Python
 
 ---
 
@@ -44,6 +42,7 @@ TBC
 | Timeline | Feature | Description |
 |--------|-------------|--------|
 | 9/9/2025 | Websocket Data Extraction | Extracts last price, bid, ask, volume data from OKX's public API
+| 9/11/2025 | Decision Framework | RTL infrastructure to unpack incoming UART data and make decisions based on it
 
 \
 *Planned Features* 
